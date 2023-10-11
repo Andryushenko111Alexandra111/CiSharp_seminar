@@ -4,6 +4,7 @@
 782 -> 72
 918 -> 98
 */
+Console.Clear();
 
 int number = new Random().Next(100,1000);
 System.Console.WriteLine(number);
@@ -13,3 +14,6 @@ System.Console.Write(first);
 
 int second = number%10;
 System.Console.WriteLine(second);
+System.Console.WriteLine(first +""+second);
+int result = first *10+second;
+System.Console.WriteLine(result);

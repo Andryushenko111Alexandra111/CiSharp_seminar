@@ -6,6 +6,8 @@
 8,9 -> нет
 */
 
+Console.Clear();
+
 System.Console.WriteLine("Введите первое число");
 int usernumber1 = Convert.ToInt32(Console.ReadLine()); // 5
 System.Console.WriteLine("Введите второе число");

@@ -8,21 +8,21 @@
 */
 int Prompt(string message) //создали функцию (тип название)
 {
-    System.Console.WriteLine(message);
-    string inputString = Console. ReadLine();//ожидание ввода строки и присваивание её значения
-    int number = Convert.ToInt32(inputString);
-    return number;// возврат числа и выход из функции
+   System.Console.WriteLine(message);
+   string inputString = Console.ReadLine();//ожидание ввода строки и присваивание её значения
+   int number = Convert.ToInt32(inputString);
+   return number;// возврат числа и выход из функции
 }
 
 int day = Prompt("Введите номер дня недели: ");// объявление переменной day, присваеваем результат вызова функции Prompt
 
 if (day > 7)
 {
-   System.Console.WriteLine("Ведённое число слишком большое."); 
+   System.Console.WriteLine("Такого дня недели нет.");
 }
 else
 {
-   if (day <6)
+   if (day < 6)
    {
       System.Console.WriteLine("нет");
    }
