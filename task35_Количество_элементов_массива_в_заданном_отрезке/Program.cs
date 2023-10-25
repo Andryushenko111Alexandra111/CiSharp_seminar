@@ -51,9 +51,9 @@ int TakeEntNum(string message)
     return result;
 }
 
-int userArraySize = TakeEntNum("Please, enter array size:");
-int userArrayStart = TakeEntNum("Please, enter array start number range:");
-int userArrayEnd = TakeEntNum("Please, enter array end number range:");
+int userArraySize = TakeEntNum("Введите размер массива:");
+int userArrayStart = TakeEntNum("Введите диапазон начальных номеров массива:");
+int userArrayEnd = TakeEntNum("Введите диапазон конечных номеров массива:");
 int[] userArray = GetRandomArray(userArrayStart, userArrayEnd, userArraySize);
 PrintArray(userArray);
 System.Console.WriteLine(Change1Array(userArray));
